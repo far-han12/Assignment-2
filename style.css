@@ -324,7 +324,7 @@ margin-bottom: 20px;
   border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
-padding: 20px;
+padding-left: 10px;
 
 flex-basis:450px
 }
