@@ -357,3 +357,156 @@ font-weight: 400;
 line-height: 26px; 
 padding: 30px;/* 162.5% */
 }
+
+/* newsletter */
+.newsletter{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  
+  
+}
+.newsletter-form{
+  width: 48%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 16px;
+border: 1px solid #FF5400;
+  
+
+}
+label{
+  padding: 5px;
+}
+button{
+  margin-top: 10px;
+  padding-right: 10px;
+}
+.nc{
+  width: 80%;
+  height: auto;
+  margin:0 auto;
+}
+
+.newsletter-img{
+  width: 48%;
+  position: relative;
+}
+.newsletter-img img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.newsletter-form input{
+
+  display: block;
+}
+
+#name{
+width: 80%;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+#email{
+  width: 80%;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+
+
+}
+#bt{
+  width: 70%;
+height: 52px;
+margin-bottom: 20px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+
+.seventy{
+  display: flex;
+  justify-content: center;
+  width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+position: absolute;
+bottom: 50px;
+left: 230px;
+}
+.seventy p{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sp3{
+  color: #FFF;
+  text-align: center;
+font-family: Mulish;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+/* footer */
+.footer {
+  background: rgba(19, 19, 24, 0.05);
+  padding-bottom: 50px;
+}
+
+.footer-main {
+  padding: 100px 330px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.foo-des {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer .icons {
+  display: flex;
+  font-size: 25px;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sp-4{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.footer h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer hr {
+  width: 60%;
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.10);
+}
