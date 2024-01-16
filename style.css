@@ -120,7 +120,7 @@ nav > ul li a {
 
 input,
 select {
-  width: 174px;
+  width: 155px;
   border-radius: 8px;
   background: #fff;
   padding-left: 10px;
@@ -147,8 +147,11 @@ line-height: normal;
 
 }
 
-button {
+#bb {
   width: 174px;
+  border: 0;
+  margin-top: 0;
+  
   border-radius: 8px;
   color: #fff;
   text-align: center;
