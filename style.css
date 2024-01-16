@@ -422,7 +422,7 @@ background: rgba(19, 19, 24, 0.05);
 
 }
 #bt{
-  width: 70%;
+  width: 80%;
 height: 52px;
 margin-bottom: 20px;
 flex-shrink: 0;
@@ -440,7 +440,7 @@ flex-shrink: 0;
 border-radius: 16px;
 background: #FF5400;
 position: absolute;
-bottom: 50px;
+bottom:69px;
 left: 230px;
 }
 .seventy p{
