@@ -137,9 +137,19 @@ line-height: 24px; /* 171.429% */
 
 
   /*why choose us  */
-.box-container{
-  flex-basis: 200px;
-  height: 200px;
+  .main-choose{
+    max-width:100%;
+    margin :0 auto;
+  }
+.box-title , .choose-title{
+  font-size: 14px;
+}
+.box-text ,.choose-text{
+  font-size: 16px;
+}
+.box-img{
+  width: 40px;
+  height: 40px;
 }
 
 }
