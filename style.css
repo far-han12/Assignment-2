@@ -10,6 +10,9 @@ header {
   max-width: 1170px;
   margin: 0 auto;
 }
+.ham{
+  display: none;
+}
 
 /* nav-bar */
 .nav-bar {
@@ -36,13 +39,15 @@ nav > ul li a {
 .company-details {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 .company-name {
   color: #131318;
   font-size: 36px;
 }
 .company-details img {
-  margin-top: 30px;
+  /* display: block; */
+  padding-top: 30px;
 }
 .sp-1 {
   color: #ff5400;

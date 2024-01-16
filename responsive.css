@@ -1,4 +1,24 @@
 @media screen and (max-width: 600px) {
+  .nav-bar{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  ul>li a{
+    display: none;
+  }
+  .ham{
+    display: block;
+    margin: 0 auto;
+  }
+  .company-details img {
+    display: flex;
+    justify-content: left;
+  }
+  .company-details {
+    display: flex;
+
+    justify-content: left;
+  }
   .banner {
     max-width: 100%;
     margin: 0 auto;
@@ -136,9 +156,11 @@ line-height: 24px; /* 171.429% */
   
 }
 
-.dt-img-5{
-  height:50%;
-}
+.dt-img-container img{
+  width: 100%;
+    height: 100%;
+    /* display: block; */
+  }
 
 
   /*why choose us  */
