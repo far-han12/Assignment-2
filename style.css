@@ -137,6 +137,15 @@ select {
   font-size: 16px;
   font-weight: 400;
 }
+input::placeholder{
+  color: rgba(19, 19, 24, 0.30);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
 
 button {
   width: 174px;
@@ -426,8 +435,16 @@ background: rgba(19, 19, 24, 0.05);
 
 
 }
+.sp-5{
+  color: #FFF;
+font-family: Mulish;
+font-size: 21.138px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 #bt{
-  width: 80%;
+  width: 84%;
 height: 52px;
 margin-bottom: 20px;
 flex-shrink: 0;
@@ -445,8 +462,8 @@ flex-shrink: 0;
 border-radius: 16px;
 background: #FF5400;
 position: absolute;
-bottom:69px;
-left: 230px;
+bottom:19%;
+left: 41%;
 }
 .seventy p{
   color: #FFF;
